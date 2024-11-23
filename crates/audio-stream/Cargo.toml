@@ -1,0 +1,13 @@
+[package]
+name = "limnus-audio-stream"
+version = "0.0.10"
+edition = "2021"
+
+[dependencies]
+tracing = "0.1.40"
+swamp-app = { path = "../app", version = "0.0.10" } # for the plugin
+swamp-audio = { path = "../audio", version = "0.0.10" }
+limnus-audio-mixer = { path = "../audio-mixer", version = "0.0.10" }
+oddio = "0.7.4"
+cpal = "0.15.3"
+swamp-local-resource = { path = "../local-resource", version = "0.0.10" }

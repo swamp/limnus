@@ -1,0 +1,12 @@
+[package]
+name = "limnus-system-params"
+version = "0.0.10"
+edition = "2021"
+
+[dependencies]
+swamp-system-state = { path = "../system-state", version = "0.0.10" }
+swamp-message = { path = "../message", version = "0.0.10" }
+swamp-resource = { path = "../resource", version = "0.0.10" }
+swamp-local-resource = { path = "../local-resource", version = "0.0.10" }
+# System
+swamp-system = { path = "../system", version = "0.0.10" }
