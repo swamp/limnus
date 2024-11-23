@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Peter Bjorklund. All rights reserved. https://github.com/swamp/limnus
+ * Licensed under the MIT License. See LICENSE in the project root for license information.
+ */
+
 use gilrs::{Error, Gilrs};
 use limnus_gamepad::Gamepads;
 use limnus_system_params::{LocReAll, ReM};

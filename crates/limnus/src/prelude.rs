@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Peter Bjorklund. All rights reserved. https://github.com/swamp/limnus
+ * Licensed under the MIT License. See LICENSE in the project root for license information.
+ */
+
 #[allow(unused_imports)]
 pub use {
     crate::DefaultPlugins, limnus_system_params::*, swamp_app::prelude::*, swamp_asset_id::*,

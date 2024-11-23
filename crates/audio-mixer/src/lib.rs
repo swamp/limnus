@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Peter Bjorklund. All rights reserved. https://github.com/swamp/limnus
+ * Licensed under the MIT License. See LICENSE in the project root for license information.
+ */
+
 use std::fmt::{Debug, Formatter};
 use std::sync::{Arc, Mutex};
 use swamp_app::prelude::{App, Plugin};
